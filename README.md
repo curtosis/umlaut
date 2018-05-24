@@ -355,7 +355,7 @@ diagram filename {
 
 The above example generates this diagram:
 
-![filename](./resources/filename.png)
+![filename](./docs/filename.png)
 
 - A file named `all.png` is always created with all the types defined in the umlaut document.
 - The file created is `filename.png` because of the identifier in the `diagram` keyword.

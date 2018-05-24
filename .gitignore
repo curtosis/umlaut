@@ -11,6 +11,7 @@ pom.xml.asc
 *.class
 /.lein-*
 /.nrepl-port
+/.cpcache/
 /lib/
 .lein-deps-sum
 .lein-repl-history
@@ -30,5 +31,3 @@ pom.xml.asc
 
 ### OS
 .DS_Store
-
-
