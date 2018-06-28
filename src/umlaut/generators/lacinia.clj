@@ -24,6 +24,7 @@
   "Converts umlaut names to Lacinia names."
   (case type
     "Integer" 'Int
+    "DateTime" 'String
     (symbol type)))
 
 (defn- lacinia-type [attr]
