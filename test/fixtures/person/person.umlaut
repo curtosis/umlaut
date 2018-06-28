@@ -11,6 +11,7 @@ interface Person {
 @lang/dot color navajowhite
 type Employee : Person {
   salary: Float
+  salaryDate: DateTime
   status: RelationshipStatus
   profession: Profession?
   changeSalary(newSalary: Float): Float
